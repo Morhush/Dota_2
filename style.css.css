@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
+
+body{
+	font-family: 'Underdog', cursive;
+}
+
+header{
+	width: 100%;
+	height: 650px;
+	background-image: url(dota2_social);
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+}
+
+nav li{
+	padding: 20px 40px;
+	color: #43ffff;
+	font-size: 16pt;
+}
+
+.first_quote{
+	height: 670px;
+	background-image: linear-gradient(to top right, #2D1E43 10%, #3089A6 70%, #2B7C8D 100%);
+	
+}
+
+.first_quote blockquote{
+	color: white;
+	font-size: 20pt;
+	padding-left: 200px;
+	padding-top: 150px;
+	text-align: right;
+}
+
+.first_quote img{
+	padding: 20px;
+	float: right;
+	shape-outside: polygon(274px 0px, 298px 131px, 308px 189px, 252px 306px, 216px 403px, 0px 443px, 0px 550px, 707px 550px, 707px 0px,274px 0px);
+}
+
+.second_quote{
+	height: 670px;
+	background-image: url(images/red-roses.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.second_quote blockquote{
+	
+	width: 740px;
+	height: 500px;
+	background-image: url(images/tea_pot.png);
+		
+}
+
+.second_quote p{
+	padding-top: 120px;
+	color: white;
+	font-size: 18pt;
+	text-align: center;
+}
+
+.left_tea_pot_border{
+	width: 320px;
+	height: 500px;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(305px 116px, 242px 176px, 216px 251px, 219px 336px, 272px 420px, 272px 550px, 0px 550px, 0px 0px, 305px 0px, 305px 116px);
+	/*clip-path: polygon(305px 116px, 242px 176px, 216px 251px, 219px 336px, 272px 420px, 272px 550px, 0px 550px, 0px 0px, 305px 0px, 305px 116px);*/
+
+}
+
+.right_tea_pot_border{
+	width: 280px;
+	height: 500px;
+	float: right;
+	/*background-color: red;*/
+	shape-outside: polygon(0px 116px, 63px 176px, 101px 251px, 121px 336px, 47px 420px, 47px 550px, 278px 550px, 278px 0px, 0px 0px, 0px 116px);
+	/*clip-path: polygon(0px 116px, 63px 176px, 101px 251px, 121px 336px, 47px 420px, 47px 550px, 278px 550px, 278px 0px, 0px 0px, 0px 116px);*/
+	
+}
+
+.informations{
+	height: 650px;
+	padding: 40px;
+	background-image: url(images/cat.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	color: white;
+	font-size: 14pt;
+}
+
+.actors_list{
+	width: 70%;
+	height: 100%;
+	position: relative;
+}
+
+.actors_list:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);
+	/*clip-path: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);*/
+}
+
+.All_mad_here{
+	height: 630px;
+	display: flex;
+	background-image: linear-gradient(to bottom right, #f8ffe8 0%, #E3F5AB 33%, #6CC726 100%);
+	font-size: 20pt;
+}
+
+.All_mad_here img{
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.All_mad_here_quote1{
+	width: 50%;
+	height: 100%;
+	text-align: right;
+	
+}
+
+.All_mad_here_quote1 p{
+	padding: 100px;
+}
+
+.All_mad_here_quote1:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: right;
+	/*background-color: red;*/
+	shape-outside: polygon(100% 0%, 100% 100%, 30% 100%, 100% 0%);
+	/*clip-path: polygon(100% 0%, 100% 100%, 30% 100%, 100% 0%);*/
+}
+
+.All_mad_here_quote2{
+	width: 50%;
+	height: 100%;
+	text-align: left;
+	margin-left: -30%;
+	
+}
+
+.All_mad_here_quote2 p{
+	padding: 150px;
+}
+
+.All_mad_here_quote2:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);
+	/*clip-path: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);*/
+}
+
+.gallery{
+	height: 650px;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	display: none;
+}
+
+.slider{
+	width: 1000px;
+	height: 550px;
+	position: relative;
+	background-color: white;
+	overflow: hidden;
+	
+}
+.slides{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: 0;
+	transform: scale(1.5);
+	transition: opacity ease-in-out 0.5s, transform ease-in-out 0.5s;
+}
+
+.slide1 {
+	background-image: url(images/1.jpg);
+	background-size: cover;
+}
+.slide2 {
+	background-image: url(images/2.jpg);
+	background-size: cover;
+}
+.slide3 { 
+	background-image: url(images/3.jpg);
+	background-size: cover;
+}
+.slide4 {
+	background-image: url(images/4.jpg);
+	background-size: cover;
+}
+.slide5 {
+	background-image: url(images/5.jpg);
+	background-size: cover;
+}
+
+.controls{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.controls label{
+	opacity: 0.8;
+	cursor: pointer;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin: 10px;
+	position: relative;
+	transition: background ease-in-out .5s;
+	
+}
+
+.controls label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+	background: white;
+}
+
+
+#slide1:checked ~ .slider .slide1,
+#slide2:checked ~ .slider .slide2,
+#slide3:checked ~ .slider .slide3,
+#slide4:checked ~ .slider .slide4,
+#slide5:checked ~ .slider .slide5{
+	z-index: 1;
+	opacity: 1;
+	transform: scale(1);
+} 
+
+.controls label:before{
+	content: " ";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 3px solid white;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}

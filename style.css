@@ -1,0 +1,666 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
+
+body{
+	font-family: 'Underdog', cursive;
+}
+
+header{
+	width: 100%;
+	height: 650px;
+   background-repeat: no-repeat;
+	background-image: url(images/dota2_social.jpg);
+    background-size: 100% 650px;}
+
+nav ul{
+	display: flex;
+	list-style: none;
+}
+
+nav li{
+	padding: 20px 40px;
+	color: #a0d6da;
+	font-size: 16pt;
+}
+
+.first_quote{
+	height: 670px;
+	background-image: linear-gradient(to top right, #2D1E43 10%, #3089A6 70%, #2B7C8D 100%);
+	
+}
+
+.first_quote blockquote{
+	color: white;
+	font-size: 20pt;
+	padding-left: 200px;
+	padding-top: 150px;
+	text-align: right;
+}
+
+.first_quote img{
+	padding: 20px;
+	float: right;
+	shape-outside: polygon(274px 0px, 298px 131px, 308px 189px, 252px 306px, 216px 403px, 0px 443px, 0px 550px, 707px 550px, 707px 0px,274px 0px);
+}
+
+.second_quote{
+	width: 100%;
+	height: 650px;
+   background-repeat: no-repeat;
+	background-image: url(images/dota-dota-2.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: 100% 650px;
+}
+
+.second_quote blockquote{
+	
+	width: 740px;
+	height: 500px;
+	background-image: url(images/AegisOfChampions.webp);
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: 100% 500px;
+}
+
+.second_quote p{
+	padding-top: 120px;
+	color: rgb(255 192 140);
+	font-size: 18pt;    
+	text-align: center;
+}
+
+.left_tea_pot_border{
+	width: 320px;
+	height: 500px;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(305px 116px, 242px 176px, 216px 251px, 219px 336px, 272px 420px, 272px 550px, 0px 550px, 0px 0px, 305px 0px, 305px 116px);
+	/*clip-path: polygon(305px 116px, 242px 176px, 216px 251px, 219px 336px, 272px 420px, 272px 550px, 0px 550px, 0px 0px, 305px 0px, 305px 116px);*/
+
+}
+
+.right_tea_pot_border{
+	width: 280px;
+	height: 500px;
+	float: right;
+	/*background-color: red;*/
+	shape-outside: polygon(0px 116px, 63px 176px, 101px 251px, 121px 336px, 47px 420px, 47px 550px, 278px 550px, 278px 0px, 0px 0px, 0px 116px);
+	/*clip-path: polygon(0px 116px, 63px 176px, 101px 251px, 121px 336px, 47px 420px, 47px 550px, 278px 550px, 278px 0px, 0px 0px, 0px 116px);*/
+	
+}
+
+.informations{
+	height: 650px;
+	padding: 40px;
+	background-image: url(images/steamworkshop_webupload_previewfile_181979094_preview.png);
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	color: white;
+	font-size: 14pt;
+
+}
+.actors_list{
+	width: 70%;
+	height: 100%;
+	position: relative;
+}
+
+.actors_list:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);
+	/*clip-path: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);*/
+}
+
+.All_mad_here{
+	height: 630px;
+	display: flex;
+	background-image: linear-gradient(to bottom right, #f8ffe8 0%, #b0d7f1 33%, #580505 100%);
+	font-size: 20pt;
+}
+
+.All_mad_here img{
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.All_mad_here_quote1{
+	width: 50%;
+	height: 100%;
+	text-align: right;
+	
+}
+
+.All_mad_here_quote1 p{
+	padding: 100px;
+}
+
+.All_mad_here_quote1:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: right;
+	/*background-color: red;*/
+	shape-outside: polygon(100% 0%, 100% 100%, 30% 100%, 100% 0%);
+	/*clip-path: polygon(100% 0%, 100% 100%, 30% 100%, 100% 0%);*/
+}
+
+.All_mad_here_quote2{
+	width: 50%;
+	height: 100%;
+	text-align: left;
+	margin-left: -30%;
+	
+}
+
+.All_mad_here_quote2 p{
+	padding: 150px;
+}
+
+.All_mad_here_quote2:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*background-color: red;*/
+	shape-outside: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);
+	/*clip-path: polygon(0% 0%, 0% 100%, 70% 0%, 0% 0%);*/
+}
+
+.gallery{
+	height: 700px;
+    width: 100%;
+	background-image: url(images/backgraund2.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.slider{
+	width: 1000px;
+	height: 550px;
+	position: relative;
+	background-color: white;
+	overflow: hidden;
+	
+}
+.slides{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: 0;
+	transform: scale(1.5);
+	transition: opacity ease-in-out 0.5s, transform ease-in-out 0.5s;
+}
+
+.slide1 {
+	background-image: url(images/arc_warden_dance.png);
+	background-size: cover;
+}
+.slide2 {
+	background-image: url(images/drow_ranger_arrow.png);
+	background-size: cover;
+}
+.slide3 { 
+	background-image: url(images/pudge_hook.png);
+	background-size: cover;
+}
+.slide4 {
+	background-image: url(images/shadow_fiend_requiem.png);
+	background-size: cover;
+}
+.slide5 {
+	background-image: url(images/arc_warden_clone.png);
+	background-size: cover;
+}
+
+.controls{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.controls label{
+	opacity: 0.8;
+	cursor: pointer;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin: 10px;
+	position: relative;
+	transition: background ease-in-out .5s;
+	
+}
+
+.controls label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+	background: white;
+}
+
+
+#slide1:checked ~ .slider .slide1,
+#slide2:checked ~ .slider .slide2,
+#slide3:checked ~ .slider .slide3,
+#slide4:checked ~ .slider .slide4,
+#slide5:checked ~ .slider .slide5{
+	z-index: 1;
+	opacity: 1;
+	transform: scale(1);
+} 
+
+.controls label:before{
+	content: " ";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 3px solid white;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+/* --- abaut_characters --- */
+
+.abaut_characters{
+	height: 800px;
+	background-image: url(images/radiant_dire5.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+	display: flex;
+	box-shadow: 2px 0 8px 2px black, -2px 0 5px 1px white;
+}
+.characters_menu{
+	width: 200px;
+	height: 800px;
+	position:relative;
+}
+.characters_conteiner{
+	height: 800px;
+	flex-grow: 1;
+	position: relative;
+}
+.fab {
+	cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+	left: 30px;
+}
+.tooltip{
+	color: #29B6F6;
+	font-size: 16pt;
+	padding: 20px 45px;
+	border-radius: 10px;
+	background-color: white;
+	position: absolute;
+	left: 30px;
+	bottom: 130px;
+	animation: tooltip_jump 1s linear infinite alternate
+}
+.tooltip:after{
+	content: "";
+	display: block;
+	width: 40px;
+	height: 25px;
+	transform: skewY(-60deg) skewX(15deg) rotate(100deg);
+	background-color: white;
+	position: absolute;
+	left: 10px;
+	bottom: -7px;
+}
+.fab:hover .tooltip{
+	display: none;
+}
+@keyframes tooltip_jump{
+	0%{transform: translateY(-30px);}
+	100%{transform: translateY(20px);}
+}
+.fab-action-button{
+	width: 70px;
+	height: 70px;
+	background-color: #29B6F6;
+    border-radius: 50%;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	font-size: 16pt;
+	padding-top: 20px;
+	position: relative;
+}
+.fab-action-button:before{
+	content: "";
+	display: box;
+	width: 76px;
+	height: 76px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 3px #00A9F2, 0px 0px 8px 2px #A8D8ED;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	transform: scale(0);
+	opacity: 0;
+	transition: all .5s linear;
+}
+.fab:hover .fab-action-button{
+	color: white;
+}
+.fab:hover .fab-action-button:before{
+	transform: scale(1);
+	opacity: 1;
+}
+.fab-buttons__item{
+	width: 74px;
+	height: 74px;
+	margin-bottom: 10px;
+	background-color: #29B6F6;
+    border-radius: 50%;
+	border: 2px solid black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	list-style: none;
+	position: relative;
+}
+.fab-buttons{
+	display: none;
+	margin-bottom: 50px;
+}
+.fab:hover .fab-buttons{
+	display: block;
+}
+.fab:hover .fab-buttons__item{
+	animation: label_up 0.5s linear;	
+}
+@keyframes label_up{
+	0%{transform: scaleY(0.5) scaleX(0) translateY(40px);}
+	50%{transform: scaleY(1) scaleX(0.5) translateY(40px);}
+	100%{transform: scaleY(1) scaleX(1) translateY(0px);}
+}
+.fab-buttons__item:before{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 0 10px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: -130px;
+	bottom: 50%;
+	margin-bottom: -15px;
+	opacity:0;
+	transform-origin: left center 0;
+	transform: scale(0);
+	transition: all .5s linear;	
+}
+.fab-buttons__item:nth-of-type(1):before{
+	content: "Shadow Fiend";
+}	
+.fab-buttons__item:nth-of-type(2):before{
+	content: "Invoker";
+}
+.fab-buttons__item:nth-of-type(3):before{
+	content: "Morphling";
+}
+.fab-buttons__item:nth-of-type(4):before{
+	content: "Arc Warden";
+}
+.fab-buttons__item:hover{
+	box-shadow: 0px 0px 6px 2px black;
+}
+.fab-buttons__item:hover:before{
+	opacity:1;
+	transform: scale(1);              
+}
+.character{
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -400px;
+	background-color: #FFF1E8;
+	z-index:0;
+	box-shadow: 3px 3px 7px black;	
+}
+.character img{
+	padding: 30px 15px;
+	margin: 30px;
+	border-bottom: 2px solid #29B6F6;
+	border-top: 2px solid #29B6F6;
+	float: left;	
+}
+.character h2{
+	margin: 10px;
+}
+.character p{
+	margin: 10px;
+}
+#Hiccup{
+	transform: rotate(-3deg);
+}
+#Hiccup:target{
+	animation: character_up 0.5s linear;
+	transform: rotate(0deg);
+	z-index:1;
+}
+#Astrid{
+	transform: rotate(5deg);
+}
+#Astrid:target{
+	animation: character_up 0.5s linear;
+	transform: rotate(0deg);
+	z-index:1;
+}
+#Gruffnut{
+	transform: rotate(-11deg);
+}
+#Gruffnut:target{
+	animation: character_up 0.5s linear;
+	transform: rotate(0deg);
+	z-index:1;
+}
+#Spitelout{
+	transform: rotate(8deg);
+}
+#Spitelout:target{
+	animation: character_up 0.5s linear;	
+	transform: rotate(0deg);
+	z-index:1;
+}
+@keyframes character_up {
+	0%{left: 50%;}
+	50%{left: 45%;}
+	100%{left: 50%;}	
+}
+
+/* --- about dragons --- */
+
+.about_dragons{
+	min-height: 670px;
+	background-image: url(images/e7031acca9a34bc69a460796feb5194d.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 30px;
+	box-shadow: 2px 0 8px 2px black, -2px 0 5px 1px white;
+}
+.accordion {
+    border: 2px solid #6B537C;
+    width: 800px;
+	margin: 0px auto;
+	background-image: linear-gradient(to bottom right, #EAFC83 0%, #9FC6F5 60%, #3366FF 85%, #1F3E9C 100%);
+}
+.accordion ul{
+	list-style: none;
+}
+.accordion ul li{
+	position: relative;
+}
+.accordion_header{
+	height: 80px;
+    padding: 10px 25px;
+	cursor: pointer;
+	background: #6B537C;
+    border-top: 1px solid #9775AF;
+    border-bottom: 1px solid #4F3D5B;
+	display: flex;
+	align-items: center;
+}
+.accordion_header h2 {
+    font-size: 30px;
+	color: #f4f4f4;
+	padding-left: 20px;    
+}
+.accordion_header img{
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	border:  2px solid #DB6E5E;	
+}
+.msg {
+	max-height: 0;
+	opacity: 0;
+	transform: translate(0, 50%);
+	overflow: hidden;
+	transition: all 0.5s ease-in-out;
+}
+
+.accordion ul li input:checked ~ div.msg {
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.msg p {
+  color: rgba(48, 69, 92, 0.8);
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.msg img{
+	float: right;
+	padding: 10px 20px;
+}
+.accordion ul li input{
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+  opacity: 0;
+}
+.accordion ul li span {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	display: block;
+	width: 9px;
+	height: 9px;
+}
+.accordion ul li span:before, .accordion ul li span:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #eee;
+  width: 3px;
+  height: 9px;
+  transition: all 0.5s ease-in-out;
+}
+.accordion ul li span:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.accordion ul li span:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+.accordion ul li input:checked ~ span:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.accordion ul li input:checked ~ span:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+/* --- about film --- */
+
+.about_film{
+	height: 670px;
+	display: flex;
+	background-image: url(images/the_interneshional_red.jpg);
+	background-size: cover;	
+}
+.about_film input{
+	display: none;
+}
+.about_film label{
+	display: block;
+	box-shadow: 2px 0 8px 2px black, -2px 0 5px 1px white;
+	cursor: pointer;	
+}
+.about_film div{
+	overflow: hidden;
+	width:0;
+	background-color: rgba(209, 238, 255, 0.8);
+	transition: width .5s;
+}
+.about_film div img{
+	padding: 30px;
+}
+.about_film div p{
+	padding: 50px;
+	font-size: 16pt;
+}
+#data1:checked ~ div:nth-of-type(1){
+	width: 100%;	
+}
+#data2:checked ~ div:nth-of-type(2){
+	width: 100%;	
+}
+#data3:checked ~ div:nth-of-type(3){
+	width: 100%;	
+}
+div:nth-of-type(3) img, div:nth-of-type(5) img{
+	float: left;
+}
+div:nth-of-type(4) img{
+	float: right;
+}
+#data4:checked ~ div:nth-of-type(4){
+	width: 100%;	
+}
+#data5:checked ~ div:nth-of-type(5){
+	width: 100%;	
+}
+
+.about_film input:checked + label{
+	cursor: default;
+	background-color: rgb(255, 255, 255);
+}
+.about_film input:checked + label img{
+	opacity: 0.6;
+}
+.up{
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+}
